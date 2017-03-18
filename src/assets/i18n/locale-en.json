@@ -123,6 +123,65 @@
                                     }},
          "name" : {"Label" :"Name"},
          "code" : {"Label" :"Code"}                                   
-        }
+        },
+        "USM" : {
+            "classname" :{"Label":"Classname"},
+            "filename" : {"Label":"Filename"},
+            "multiTenant" : {"Label":"Multi"},
+            "location" : {"Label" :"Location"},
+            "path" : {"Label" : "Path"},
+            "override_host" :{"Label":"Override Host"},
+            "override_port" : {"Label" : "Override Port"},
+            "override_user":{"Label":"Override User"},
+            "override_password" :{"Label":"Override Password"},
+            "KitFile" :{"Label":"USM Log File Name For API"},
+            "Kitlevel" :{
+                                    "Label":"USM Logging Level",
+                                    "Option" : {
+                                        "1" : "Error",
+                                        "2" : "Info",
+                                        "3" : "Debug",
+                                        "4" : "Warn",
+                                        "5" : "Trace",
+                                        "6" : "Fatal"
+                                    }                                
+                                },
+            "KitMaxFileSize" :{"Label":"USM Maximum Log File Size For API"},
+            "KitMaxBackupIndex" :{"Label":"USM Maximum Number Of Log Files For API"},
+            "KitConversionPattern" :{"Label":"USM Conversion Pattern"},
+            "source" :{"Label":"USM Source Dataset"},
+            "target" :{"Label":"USM Dataset Target"},
+            "perform" :{"Label":"Whether should be performed"},
+            "jobname" :{"Label":"Jobname"},
+            "wait_in_secs" :{"Label":"Wait In Seconds"},
+            "wait_interval" :{"Label":"Wait Interval"},
+            "golden" :{"Label":"Golden"}
+        },
+        "DSM" : {
+            "classname" :{"Label":"Classname"},
+            "filename" : {"Label":"Filename"},
+            "multi" : {"Label":"Multi"},
+            "location" : {"Label" :"Location"},
+            "path" : {"Label" : "Path"},
+            "override_host" :{"Label":"Override Host"},
+            "override_port" : {"Label" : "Override Port"},
+            "override_user":{"Label":"Override User"},
+            "override_password" :{"Label":"Override Password"},
+            "DSM_ConversionPattern" :{"Label":"DSM Conversion Pattern"},
+            "DSM_File" :{"Label":"DSM Log File Name For API"},
+            "DSM_MaxBackupIndex" :{"Label":"DSM Maximum Number Of Log Files For API"},
+            "DSM_MaxFileSize" :{"Label":"DSM Maximum Log File Size For API"},
+            "DSM_level" : {
+                    "Label" : "DSM Logging Level",
+                    "Option" : {
+                        "1" : "Error",
+                        "2" : "Info",
+                        "3" : "Debug",
+                        "4" : "Warn",
+                        "5" : "Trace",
+                        "6" : "Fatal"
+                    }
+                }            
+        }     
     }
 }

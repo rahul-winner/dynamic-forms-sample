@@ -5,10 +5,11 @@ import { ConfigurationsComponent } from './configurations.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import {DynamicFormService} from "@ng2-dynamic-forms/core";
-import { DynamicFormsBootstrapUIModule } from "@ng2-dynamic-forms/ui-bootstrap";
+import { DynamicFormsUIStyleModule } from "../ng2-dynamic-forms-ui-style/dynamic-forms-ui-style.module";
 import {EngineConfigurationsComponent} from './engine-configurations/engine-configurations.component';
 import {NormalizationConfigurationsComponent} from './normalization-configurations/normalization-configurations.component';
-
+import {DsmConfigComponent} from './dsm-config/dsm-config.component';
+import {UsmConfigComponent} from './usm-config/usm-config.component';
 import {ConfigControlModelService} from './config-control-model.service';
 
 
@@ -17,11 +18,13 @@ import {ConfigControlModelService} from './config-control-model.service';
     CommonModule,
     ConfigurationsRoutingModule,
     ReactiveFormsModule,
-    DynamicFormsBootstrapUIModule
+    DynamicFormsUIStyleModule
   ],
   declarations: [ConfigurationsComponent, 
                   EngineConfigurationsComponent,
-                  NormalizationConfigurationsComponent],
+                  NormalizationConfigurationsComponent,
+                  UsmConfigComponent,
+                  DsmConfigComponent],
   providers :[ConfigControlModelService]                
 })
 export class ConfigurationsModule { 

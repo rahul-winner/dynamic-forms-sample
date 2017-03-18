@@ -11,7 +11,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 
 import { DynamicFormsCoreModule } from "@ng2-dynamic-forms/core";
-import { DynamicFormsBootstrapUIModule } from "@ng2-dynamic-forms/ui-bootstrap";
+import { DynamicFormsUIStyleModule } from "./ng2-dynamic-forms-ui-style/dynamic-forms-ui-style.module";
 import { AppComponent } from './app.component';
 
 // AoT compilation requires a reference to an exported function.
@@ -25,7 +25,7 @@ export function createTranslateLoader(http: Http) {
   ],
   imports: [
     DynamicFormsCoreModule.forRoot(),
-    DynamicFormsBootstrapUIModule,
+    DynamicFormsUIStyleModule,
     BrowserModule,
     FormsModule,
     HttpModule,

@@ -1,0 +1,82 @@
+{
+  "ApplicationName": "DSM.FILTER",
+  "ComponentName": "my-comp",
+  "settings": [
+    {
+      "key": "classname",
+      "value": "dsm.plugin.SDSMPlugin",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "filename",
+      "value": "C:\\Program Files\\plugins/dsm.jar",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "location",
+      "value": [
+        "C:\\Program Files\\plugins/GraphPlugin.jar",
+        "C:\\Program Files\\plugins/servlet-api-2.4.jar",
+        "C:\\Program Files\\plugins/widget.jar",
+        "C:\\Program Files\\plugins/api91.jar",
+        "C:\\Program Files\\plugins/flex-messaging-core.jar",
+        "C:\\Program Files\\plugins/flex-messaging-common.jar"
+      ],
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "path",
+      "value": [
+        "C:\\Program Files\\plugins/federation/lib/ehcache-core-2.2.0.jar",
+        "C:\\Program Files\\plugins/slf4j-api-1.5.11.jar",
+        "C:\\Program Files\\plugins/slf4j-jdk14-1.5.11.jar"
+      ],
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "DSM_ConversionPattern",
+      "value": "%d %-5p [%t] %C (%F:%L) - %m%n",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "DSM_File",
+      "value": "C:\\Program Files\\Logs/dsm.log",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "DSM_level",
+      "value": "Debug",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "DSM_MaxBackupIndex",
+      "value": "10",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "DSM_MaxFileSize",
+      "value": "5MB",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_host",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_port",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_password",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_user",
+      "value": "",
+      "form": "Configuration Component Setting"
+    }
+  ]
+}

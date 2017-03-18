@@ -183,5 +183,7 @@ const check_box_css_config = {
 
 const APP_NAMES = {
   Engine : "engine",
-  NE :"norm"
+  NE :"norm",
+  DSM : "dsm",
+  USM : "usm"
 }

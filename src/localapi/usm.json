@@ -1,0 +1,105 @@
+{
+  "ApplicationName": "KIT.API",
+  "ComponentName": "my-comp",
+  "settings": [
+    {
+      "key": "classname",
+      "value": "Kit",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "filename",
+      "value": "C:\\Program Files\\plugins/kit.jar",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "location",
+      "value": [
+        "C:\\Program Files\\plugins/servlet-api-2.4.jar",
+        "C:\\Program Files\\plugins/slf4j-api-1.5.11.jar",
+        "C:\\Program Files\\plugins/slf4j-jdk14-1.5.11.jar"
+      ],
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "Kit_ConversionPattern",
+      "value": "%d %-5p [%t] %C (%F:%L) - %m%n",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "Kit_File",
+      "value": "C:\\Program Files\\kit.log",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "Kit_level",
+      "value": "Error",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "Kit_MaxBackupIndex",
+      "value": "10",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "Kit_MaxFileSize",
+      "value": "5MB",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "golden",
+      "value": "Gold",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_host",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_port",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_password",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "override_user",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "perform",
+      "value": "false",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "source",
+      "value": "SAMPLE",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "target",
+      "value": "TAR",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "jobname",
+      "value": "Sample",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "wait_in_secs",
+      "value": "20",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "wait_interval",
+      "value": "1",
+      "form": "Configuration Component Setting"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+input[type=range] {
+	width: 75%;
+    float: left;
+}
+
+.range-input-value {
+    float: left;
+    background: #F2F2F2;
+    color: #666;
+    padding: 10px;
+    margin: 0 0 0 10px;   
+}

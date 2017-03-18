@@ -10,13 +10,13 @@
 </div>
 <form class="form" [formGroup]="formGroup">
 
-        <dynamic-form-bootstrap-control *ngFor="let controlModel of formModel"
+        <dynamic-form-ui-style-control *ngFor="let controlModel of formModel"
                                         [controlGroup]="formGroup"
                                         [model]="controlModel"
                                         (change)="onChange($event)"
                                         [hasErrorMessaging]="controlModel.hasErrorMessages">
                                         
-        </dynamic-form-bootstrap-control>
+        </dynamic-form-ui-style-control>
 <div class="clearfix"></div>
 <div class="col-xs-3"><button [disabled]="formGroup.pristine || formGroup.invalid" class="btn btn-lg btn-primary" (click)="save()" type="button">Save</button></div>
 </form>

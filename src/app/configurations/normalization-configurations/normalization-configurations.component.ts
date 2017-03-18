@@ -36,7 +36,7 @@ const NEConfigMetaData = {
   "com_sys_system_BatchMaxInstancePerThread" : {type : 5,min:1, max:9999999,validators : {}},
   "api_MaxFileSize" : {type : 5,min:0, max:50,validators : {}},
   "job_MaxFileSize" : {type : 5,min:0, max:50,validators : {}},
-  "com_sys_system_RpcQueue" :{type : 2,
+  "com_sys_system_XRpcQueue" :{type : 2,
       options :[
         {
           label:"Config.NE.com_sys_system_RpcQueue.Option.1",

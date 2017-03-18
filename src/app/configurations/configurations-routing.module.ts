@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import {ConfigurationsComponent} from './configurations.component';
 import {EngineConfigurationsComponent} from './engine-configurations/engine-configurations.component';
 import {NormalizationConfigurationsComponent} from './normalization-configurations/normalization-configurations.component';
+import {DsmConfigComponent} from './dsm-config/dsm-config.component';
+import {UsmConfigComponent} from './usm-config/usm-config.component';
 
 const routes: Routes = [
   {
@@ -12,7 +14,9 @@ const routes: Routes = [
     children :[
       {path : '',redirectTo : 'engine',pathMatch : 'full'},
       {path : 'engine',component: EngineConfigurationsComponent},
-      {path : 'normalization',component: NormalizationConfigurationsComponent}
+      {path : 'normalization',component: NormalizationConfigurationsComponent},
+      {path : 'dsm',component: DsmConfigComponent},
+      {path : 'usm',component: UsmConfigComponent}
     ]
   }
   
