@@ -1,0 +1,21 @@
+<div>
+    <h2>CONFIGURATIONS</h2>
+        <hr/>
+        <div class="col-xs-2"> <!-- required for floating -->
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs tabs-left sideways">
+            <li [routerLinkActive]="['active']" ><a [routerLink]="['engine']" data-toggle="tab">Engine</a></li>
+            <li [routerLinkActive]="['active']" ><a [routerLink]="['normalization']" data-toggle="tab">Normalization</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-10">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <router-outlet></router-outlet>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+</div>

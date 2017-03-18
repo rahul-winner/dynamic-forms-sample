@@ -1,0 +1,128 @@
+{
+    "Config" :{
+        "Engine" : {
+            "App-Cache-Refresh-Initial-Delay" : {
+                "Label":"Cache Refresh Initial Delay",
+                "ErrorMsgs" :{
+                    "required": "{{label}} is required",
+                    "maxLength": "Max character count is 5"
+                }
+            },
+            "App-Cache-Refresh-Interval" : {"Label":"Cache Refresh Interval"},
+            "App-ChunkedItem-Allowed-Period-In-Cache" : {"Label":"ChunkedItem Allowed Period In Cache"},
+            "App-ChunkedItem-Cleanup-Initial-Delay":{"Label": "ChunkedItem Cleanup Initial Delay"},
+            "App-ChunkedItem-Cleanup-Interval" :{"Label":"ChunkedItem Cleanup Interval"},
+            "App-Allow-Global-BSSO-Delete":{"Label":"Allow Global BSSO Delete"},
+            "App-CIViewer-Graph-Limit" : {"Label":"CIViewer Graph Limit"},
+            "App-GQRecursion-Limit":{"Label":"GQRecursion Limit"},
+            "App-Hard-Delete-Only-If-Marked-For-Delete" : {"Label" :"Hard Delete Only If Marked For Delete"},
+            "App-Impact-Weight-Default" : {"Label" : "Impact Weight Default"},
+            "App-Inline-Normalization" : {"Label" : "Inline Normalization"},
+            "App-Log-File-Location" : {"Label" : "Log File Location"},
+            "App-Log-File-Name" : {"Label" : "Log File Name"},
+            "App-Logging-Level" : {"Label" : "Logging Level",
+                            "Option" : {
+                                "1" : "Fatal",
+                                "2" : "Error",
+                                "3" : "Warn",
+                                "4" : "Info",
+                                "5" : "Debug"
+                            }
+            },
+            "App-Log-Per-Thread" : {"Label" : "Log Per Thread"},
+            "App-Max-Log-File-Size" : {"Label" : "Max Log File Size"},
+            "App-Max-Results-Per-Query" : {"Label":"Max Results Per Query"},
+            "App-Number-Of-Backup-Files" : {"Label" : "Number Of Backup Files"},
+            "App-Validate-Federation-Source" : {"Label" : "Validate Federation Source"},
+            "Event-Channel-Enabled" : {"Label" : "Event Channel Enabled"}
+        },
+        "NE" :{
+            "classname" :{"Label":"Classname"},
+            "filename" : {"Label":"Filename"},
+            "multiTenant" : {"Label":"MultiTenant"},
+            "location" : {"Label" :"Location"},
+            "path" : {"Label" : "Path"},
+            "com_sys_name" : {"Label":"App Server Name"},
+            "com_sys_system_RpcQueue" : {"Label" : "System ARRpcQueue"},
+            "com_sys_system_BatchMaxThreads" : {"Label" : "Batch Max Threads"},
+            "com_sys_system_SystemRpcQueue" : {"Label" : "System RPC Queue",
+                                                "Option" :{
+                                                    "1":  "0",
+                                                    "2" : "390698",
+                                                    "3" : "390699"
+                                                    }
+                                                },
+            "com_sys_system_ContinuousMaxThreads":{"Label" : "Continuous Max Threads"},
+            "com_sys_system_FailOverNotificationInterval" : {"Label":"FailOver Notification Interval"},
+            "com_sys_system_CreateNewProducts" : {"Label" : "Allow Create New Products"},
+            "com_sys_system_NormalizeAllInstances" :{"Label" : "Normalize All Instances"},
+            "com_sys_system_RetryTimeInterval" :{"Label" : "Retry Time Interval"},
+
+            "com_sys_system_BatchMaxInstancePerThread" :{"Label" : "Batch Max Instance Per Thread"},
+            "com_sys_system_ContinuousHistoryInterval" :{"Label" : "Continuous History Interval"},
+            "com_sys_system_ContinuousTimeThreshold" : {"Label":"Continuous Time Threshold"},
+            "com_sys_system_DefnCheckInterval" :{"Label":"Definite Check Interval"},
+            "com_sys_system_DeleteUnmanagedInstances" : {"Label" : "Delete Unmanaged Instances"},
+            "com_sys_system_ContinuousEventsThreshold" : {"Label":"Continuous Events Threshold"},
+            "com_sys_system_DataCheckInterval":{"Label":"Data Check Interval"},
+            "VersionRollup_RulePriority" :{"Label":"Version Rollup Rule Priority"},
+            "com_sys_system_InlineErrorHandling" : {"Label":"Inline Error Handling"},
+            "com_sys_user_data_merged" : {"Label":"Merge User Data"},
+            "com_sys_system_FailOverStatusInterval" : {"Label":"FailOver Status Interval"},
+            "com_sys_system_Enabled" : {"Label":"App System Enabled",
+                            "Option" : {
+                                "1" : "Name & CTI lookup",
+                                "2" : "CTI Only",
+                                "3" : "Disabled"
+                            }            
+            },
+            "com_sys_system_Mode" : {"Label" : "App System Mode"},
+
+            "override_host" :{"Label":"Override AR Host"},
+            "override_port" : {"Label" : "Override App Server Port"},
+            "override_app_system_user":{"Label":"Override SystemUser"},
+            "override_app_system_password" :{"Label":"Override SystemPassword"},
+
+            "api_MaxFileSize":{"Label":"Maximum Log File Size for API"},
+            "api_MaxBackupIndex":{"Label":"Maximum Number of Log files for API"},
+            "api_level" : {"Label":"Log level for API",
+                            "Option" : {
+                                "1" : "Fatal",
+                                "2" : "Error",
+                                "3" : "Warn",
+                                "4" : "Info",
+                                "5" : "Debug"
+                            }},
+            "api_File" : {"Label" : "Log File name for API"},
+            "api_ConversionPattern" : {"Label" :"Conversion Pattern for API"},
+
+            "continuous_MaxFileSize" : {"Label" :"Maximum Log File Size for Continuous Job" },
+            "continuous_MaxBackupIndex" : {"Label":"Maximum Number of Log files for Continuous Job"},
+            "continuous_level" : {"Label" : "Log level for Continuous Job",
+                                    "Option" : {
+                                        "1" : "Fatal",
+                                        "2" : "Error",
+                                        "3" : "Warn",
+                                        "4" : "Info",
+                                        "5" : "Debug"
+                                    }},
+            "continuous_ConversionPattern" : {"Label" : "Conversion Pattern for Continuous Job"},
+            "continuous_File" : {"Label":"Log File name for Continuous Job"},
+
+            "job_ConversionPattern" :{"Label":"Conversion Pattern for Batch Job"},
+            "job_File" : {"Label" : "Log file name for Batch Job"},
+            "job_MaxBackupIndex" : {"Label" :"Maximum No of Log files for Batch Job"},
+            "job_MaxFileSize" : {"Label" :"Maximum Log File Size for Batch Job"},
+            "job_level" : {"Label" :"Log level for Batch Job",
+                            "Option" : {
+                                        "1" : "Fatal",
+                                        "2" : "Error",
+                                        "3" : "Warn",
+                                        "4" : "Info",
+                                        "5" : "Debug"
+                                    }},
+         "name" : {"Label" :"Name"},
+         "code" : {"Label" :"Code"}                                   
+        }
+    }
+}

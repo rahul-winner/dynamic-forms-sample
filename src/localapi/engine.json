@@ -1,0 +1,96 @@
+{
+  "ApplicationName": "engine",
+  "ComponentName": "my-comp",
+  "settings": [
+    {
+      "key": "App-Cache-Refresh-Initial-Delay",
+      "value": "",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Cache-Refresh-Interval",
+      "value": "300000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-ChunkedItem-Allowed-Period-In-Cache",
+      "value": "3600000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-ChunkedItem-Cleanup-Initial-Delay",
+      "value": "900000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-ChunkedItem-Cleanup-Interval",
+      "value": "300000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-CIViewer-Graph-Limit",
+      "value": "0",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-GQRecursion-Limit",
+      "value": "0",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Hard-Delete-Only-If-Marked-For-Delete",
+      "value": "F",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Impact-Weight-Default",
+      "value": "0",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Inline-Normalization",
+      "value": "F",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Log-File-Location",
+      "value": "C:\\Program Files\\MySoftware\\AppSystem\\AppServer\\Db",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Log-File-Name",
+      "value": "eng_debug_log.log",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Logging-Level",
+      "value": "WARN",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Log-Per-Thread",
+      "value": "0",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Max-Log-File-Size",
+      "value": "250",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Max-Results-Per-Query",
+      "value": "0",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "App-Number-Of-Backup-Files",
+      "value": "10",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "Event-Channel-Enabled",
+      "value": "F",
+      "form": "Configuration Component Setting"
+    }
+  ]
+}

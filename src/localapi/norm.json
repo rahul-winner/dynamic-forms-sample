@@ -1,0 +1,110 @@
+{
+  "ApplicationName": "ne",
+  "ComponentName": "my-comp",
+  "settings": [
+    {
+      "key": "classname",
+      "value": "com.sys.appplugin.NEPluginServer",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "filename",
+      "value": "C:\\Program Files\\plugins\\ne\\neplugin91.jar",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "location",
+      "value": [
+        "C:\\Program Files\\plugins\\ne\\lib\\backport-util-concurrent-3.0.jar",
+        "C:\\Program Files\\plugins\\ne\\lib\\ehcache-1.4.1.jar",
+        "C:\\Program Files\\plugins\\ne\\lib\\commons-lang-2.2.jar"
+      ],
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "path",
+      "value": "C:\\Program Files\\sdk\\bin",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "api_ConversionPattern",
+      "value": "%d %-5p [%t] %C (%F:%L) - %m%n",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "api_File",
+      "value": "C:\\Program Files/Logs/neApi.log",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "api_level",
+      "value": "Warn",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "api_MaxBackupIndex",
+      "value": "100000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "api_MaxFileSize",
+      "value": "5MB",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "com_sys_system_RetryTimeInterval",
+      "value": "20",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "continuous_ConversionPattern",
+      "value": "%d %-5p [%t] %C (%F:%L) - %m%n",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "continuous_File",
+      "value": "C:\\Program Files\\Logs/neContinuous.log",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "continuous_level",
+      "value": "Warn",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "continuous_MaxBackupIndex",
+      "value": "100000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "continuous_MaxFileSize",
+      "value": "5MB",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "job_ConversionPattern",
+      "value": "%d %-5p [%t] %C (%F:%L) - %m%n",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "job_File",
+      "value": "C:\\Program Files/Logs/neJob.log",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "job_level",
+      "value": "Warn",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "job_MaxBackupIndex",
+      "value": "100000",
+      "form": "Configuration Component Setting"
+    },
+    {
+      "key": "job_MaxFileSize",
+      "value": "5MB",
+      "form": "Configuration Component Setting"
+    }
+  ]
+}

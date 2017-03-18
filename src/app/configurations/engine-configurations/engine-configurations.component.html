@@ -1,0 +1,21 @@
+<div class="container row well well-sm">
+        <div class="col-xs-7">
+                <label>Select Component</label>
+                <select class="form-control" (change)="onChangeComponent($event)">
+                        <option *ngFor="let component of appComponents"
+                                        [attr.name]="component"
+                                        [ngValue]="component">{{component}}</option>
+                </select>
+        </div>       
+</div> 
+<form class="form" [formGroup]="formGroup">
+
+        <dynamic-form-bootstrap-control *ngFor="let controlModel of formModel"
+                                        [controlGroup]="formGroup"
+                                        [model]="controlModel"
+                                        (change)="onChange($event)"
+                                        [hasErrorMessaging]="controlModel.hasErrorMessages">
+                                        
+        </dynamic-form-bootstrap-control>
+<div class="col-xs-3"><button [disabled]="formGroup.pristine || formGroup.invalid" class="btn btn-lg btn-primary" (click)="save()" type="button">Save</button></div>
+</form>
